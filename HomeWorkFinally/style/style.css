@@ -1,0 +1,20 @@
+
+.container{
+    margin-left: 40%;
+}
+.calc{
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+    grid-auto-rows: 100px;
+    
+}
+.calc_output{
+    width: 500px;
+    height: 100px;
+    background-color: rgb(15, 15, 70);
+}
+.calc_output p{
+    font-size: 50px;
+    color: white;
+}
